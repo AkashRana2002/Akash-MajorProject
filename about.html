@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerece Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="imgs/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-solid fa-shopping-cart"></i></a></li>
+                <li><a href="#" onclick="window.location.href='login_form.php';" ><i class="fa-solid fa-right-from-bracket"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-solid fa-shopping-cart"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">        
+        <h2>#AboutUs</h2>        
+        <p>The things you need to know about us!</p>        
+    </section>   
+
+    <section id="about-head" class="section-p1">
+        <img src="imgs/about/a6.jpg" alt="">
+        <div>
+            <h2>Know About Us!</h2>
+            <p>Founded in July of 2021 and located in Chandigarh,India.Cara is the trusted community
+                marketplace for people to shop,discover,and book unique dresses all over the country
+               - online on mobile or tablet.
+               
+               Whether Fashionable dresses for party,ocassions or casual uses, Cara connects peoples
+               to fashion, at any price points, in more than 300+ cities and 25 states and with world
+               -class customer service and growing commumnity of users, Cara is the easiest way to for
+               peoples to showcase thier fashion to the world.<br><br>
+
+            <abbr title="">We have total of 1000+ dependable employees and total of 200+ manufacturing 
+                factories.
+            </abbr><br><br>
+ 
+               <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Show your fashionable skills 
+                to the world with the help of Cara.
+               </marquee>
+
+            </p>
+        </div>
+    </section>
+
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="imgs/about/1.mp4"></video>
+        </div>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="imgs/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="imgs/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="imgs/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="imgs/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="imgs/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="imgs/features/f6.png" alt="">
+            <h6>F24/27 Support</h6>
+        </div>        
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="imgs/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Pggc-11 Co-ed,Sector-11,Chandigarh</p>
+            <p><strong>Phone:</strong> (+91) 6201370319/(+91) 8986733701</p>
+            <p><strong>Working:</strong> 09:00am - 07:00pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>               
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Informations</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="imgs/pay/app.jpg" alt="">
+                <img src="imgs/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="imgs/pay/pay.png" alt="">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
